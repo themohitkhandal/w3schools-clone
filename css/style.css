@@ -96,40 +96,47 @@
 
 .black-box {
     background-color: #282A35;
-    height: 33em;
+    height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
     justify-content: space-evenly;
 }
 
 .left-box {
     /* display: inline-block; */
     
-    position: relative;
+    /* position: relative; */
     padding: 3%;
     width: 595px;
     text-align: center;
     top: 22px;
 }
 .right-box {
+    width: 595px;
+    padding: 3%;
     /* display: inline; */
-    position: absolute;
-    top: 98px;
-    width: 594px;
-    height: 389px;
-    padding: 40.5px;
-    box-sizing: border-box;
-    border: 1px solid red;
+    /* position: absolute; */
+    /* top: 98px; */
+    /* height: fit-content; */
+    /* box-sizing: border-box; */
+    /* border: 1px solid red; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: baseline; */
 }
 .inner-right-box {
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
     /* width: 562px; */
-    width: auto;
+    /* width: auto; */
     height: 300px;
     padding: 16px;
     background-color: #e7e9eb;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .text-of-left-box {
@@ -150,6 +157,15 @@
     font-size: 18px;
     text-decoration: none;
 
+}
+.tryit-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 25px;
 }
 
 .logo {
