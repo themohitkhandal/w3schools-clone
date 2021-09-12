@@ -1,0 +1,202 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+    /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); */
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+*, body {
+    padding: 0%;
+    margin: 0%;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+
+
+}
+
+.topbar {
+    background-color: white;
+    height: 75px;
+    width: 98%;
+    padding-left: 12px;
+    padding-right: 16px;
+
+
+}
+
+.navbar {
+    overflow: auto;
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    font-size: 17px;
+    color: black;
+    /* font-weight: 700; */
+    background-color: white;
+    padding: 25px 22px 25px 22px;
+}
+
+.right-bar {
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+
+
+}
+
+.courses {
+    display: inline-block;
+    position: absolute;
+    /* top: 16px; */
+    right: 165px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 245px;
+    height: 43px;
+}
+
+.courses a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+#space {
+    display: inline-block;
+    padding: 8px 16px 8px 16px;
+    width: 53px;
+    height: 27px;
+    margin-right: 8px;
+    border-radius: 25px;
+}
+
+#paid {
+    display: inline-block;
+    padding: 8px 16px 8px 16px;
+    margin-right: 8px;
+    height: 27px;
+    width: 108px;
+    border-radius: 25px;
+}
+
+#login {
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    background-color: #04AA6D;
+    padding: 8px 16px 8px 16px;
+    border-radius: 25px;
+    width: 98px;
+    text-align: center;
+}
+
+.black-box {
+    background-color: #282A35;
+    height: 33em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-box {
+    /* display: inline-block; */
+    
+    position: relative;
+    padding: 3%;
+    width: 595px;
+    text-align: center;
+    top: 22px;
+}
+.right-box {
+    /* display: inline; */
+    position: absolute;
+    top: 98px;
+    width: 594px;
+    height: 389px;
+    padding: 40.5px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.inner-right-box {
+    display: block;
+    position: absolute;
+    /* width: 562px; */
+    width: auto;
+    height: 300px;
+    padding: 16px;
+    background-color: #e7e9eb;
+    border-radius: 10px;
+}
+
+.text-of-left-box {
+    color: white;
+    text-align: center;
+}
+
+.buttons-of-black-box a {
+    padding: 8px 16px;
+}
+
+.left-box-buttons a {
+    display: block;
+    width: 168px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.logo {
+    display: inline;
+}
+
+.logo img {
+    height: 42px;
+    /* width: 44px; */
+    padding: 16px;
+}
+
+.navbar a:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#login:hover {
+    background-color: #019961;
+}
+
+#space:hover,
+#paid:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+#learn-html {
+    background-color: #04AA6D;
+    color: white;
+}
+#learn-html:hover{
+    background-color: #059862;
+}
+#video-tuto {
+    background-color: #FFF4A3;
+    color: black;
+}
+#video-tuto:hover {
+    background-color: #fff080;
+
+}
+#html-refer{
+    background-color: white;
+    color: black;
+}
+#html-refer:hover{
+    background-color: #E7E9EB;
+}
