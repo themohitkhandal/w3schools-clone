@@ -104,6 +104,16 @@
     justify-content: space-evenly;
 }
 
+.green-box {
+    background-color: #D9EEE1;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
 .left-box {
     /* display: inline-block; */
     
@@ -198,7 +208,14 @@
     background-color: #04AA6D;
     color: white;
 }
+#learn-css {
+    background-color: #04AA6D;
+    color: white;
+}
 #learn-html:hover{
+    background-color: #059862;
+}
+#learn-css:hover{
     background-color: #059862;
 }
 #video-tuto {
@@ -215,4 +232,11 @@
 }
 #html-refer:hover{
     background-color: #E7E9EB;
+}
+#css-refer{
+    background-color: #282A35;
+    color: white;
+}
+#css-refer:hover{
+    background-color: #000;
 }
